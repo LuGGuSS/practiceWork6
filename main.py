@@ -27,7 +27,7 @@ if len(s) % 4 == 0:
     print(t)
 else:
     print("length is not a multiple of 4")
-
+# 5
 s = input("Input sequence of words using ', ': ")
 words_set = s.split(", ")
 words_set = set(words_set)
